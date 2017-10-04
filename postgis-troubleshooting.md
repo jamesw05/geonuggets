@@ -1,13 +1,13 @@
 ***PostGIS Troubleshooting*
 
 #sometimes after editing tables with postgis from terminal, they mess up in qgis:
-
+'''
 Unable to access the "public"."tablename" relation.
             The error message from the database was:
             no result buffer.
 
 restart qgis to fix this.
-
+'''
 #sometimes running postgis queries will put a ton of system memory into 'inactive' or cached state. clear cached memory:
 
     sudo purge
@@ -29,8 +29,9 @@ restart qgis to fix this.
     sudo lsof -PiTCP -sTCP:LISTEN | grep 5432
 
 #allow from all hosts
-
+'''
 open pg_hba.conf and add following entry at the very end.
 
 host    all             all              0.0.0.0/0                       md5
 host    all             all              ::/0                            md5
+'''
