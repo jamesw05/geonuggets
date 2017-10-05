@@ -4,11 +4,11 @@
 
 #a pretty version of this is at:
 
-    [Pretty blog version with detailed instructions](http://downfallnotes.com/index.php/2017/01/19/loading-natural-earth-data-into-postgis-for-illustratormapublisher/)
+[Pretty blog version with detailed instructions](http://downfallnotes.com/index.php/2017/01/19/loading-natural-earth-data-into-postgis-for-illustratormapublisher/)
 
 #Install Postgres app:
 
-    [Postgress.app](http://postgresapp.com/)
+[Postgress.app](http://postgresapp.com/)
 
 #making a new postgis database:
 
